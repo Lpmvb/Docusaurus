@@ -45,9 +45,9 @@ fs.writeFileSync(
 );
 
 if (useYarn) {
-  shell.exec("yarn add docusaurus --dev");
+  shell.exec("yarn add https://github.com/Lpmvb/Docusaurus.git --dev");
 } else {
-  shell.exec("npm install docusaurus --save-dev");
+  shell.exec("npm install https://github.com/Lpmvb/Docusaurus.git --save-dev");
 }
 
 console.log(chalk.green("Docusaurus installed in website folder!\n"));
